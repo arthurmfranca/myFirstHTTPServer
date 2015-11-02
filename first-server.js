@@ -29,7 +29,10 @@ var consolere = require('console-remote-client').connect('console.re','80','arth
 function handleRequest(request, response){
     console.re.log('Yes! It Works!! Path Hit: ' + server_ip_address + ":" + server_port + "/" + request.url);
     console.re.log("My server port is: " + server_port);
+    console.re.log("My ip address is: " + server_ip_address);
+        
 }
+
 //What is a request?
 //What is a response?
 //What is an object?
